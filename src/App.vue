@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import SideBar from './components/SideBar.vue';
+import Formulario from './components/Formulario.vue';
 
 </script>
 
@@ -7,10 +8,9 @@ import SideBar from './components/SideBar.vue';
   <main class="w-full flex">
     <div class="w-1/4 ">
       <SideBar />
-
     </div>
-    <div class="w-3/4 bg-cyan-100">
-      <span><p>1</p></span>
+    <div class="w-3/4 bg-blue-200">
+      <Formulario />
     </div>
   </main>
 </template>

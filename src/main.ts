@@ -1,13 +1,15 @@
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faClock } from '@fortawesome/free-solid-svg-icons'
+import { faClock, faPlay, faStop } from '@fortawesome/free-solid-svg-icons'
+
 import { library } from '@fortawesome/fontawesome-svg-core'
 
 import App from './App.vue'
 import router from './router'
 
-library.add(faClock)
+// adiciona TODOS os ícones que você quer usar
+library.add(faClock, faPlay, faStop)
 
 const app = createApp(App)
 
